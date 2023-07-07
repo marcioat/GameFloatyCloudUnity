@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2641446144459522398}
   - component: {fileID: 2490822843587296332}
   - component: {fileID: -6698066151826852517}
+  - component: {fileID: -1481147159536252496}
   m_Layer: 0
   m_Name: Passaro
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +99,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: c46d2a4347db1a14497b07c4f4950f7a, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -119,3 +120,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 1.5
+--- !u!60 &-1481147159536252496
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573394703198796962}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.896, y: 0.896}
+    newSize: {x: 0.896, y: 0.896}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.36, y: -0.124000005}
+      - {x: 0.42400002, y: -0.044000003}
+      - {x: 0.42400002, y: -0.028}
+      - {x: 0.40800002, y: -0.016}
+      - {x: 0.312, y: 0}
+      - {x: 0.268, y: 0.096}
+      - {x: 0.268, y: 0.136}
+      - {x: 0.252, y: 0.208}
+      - {x: 0.208, y: 0.272}
+      - {x: 0.2, y: 0.268}
+      - {x: 0.14400001, y: 0.216}
+      - {x: 0.112, y: 0.272}
+      - {x: 0.096, y: 0.272}
+      - {x: 0.008, y: 0.18400002}
+      - {x: -0.052, y: 0.1}
+      - {x: -0.080000006, y: 0.044000003}
+      - {x: -0.136, y: 0.064}
+      - {x: -0.18, y: 0.056}
+      - {x: -0.22800002, y: 0.028}
+      - {x: -0.29200003, y: -0.056}
+      - {x: -0.416, y: -0.08400001}
+      - {x: -0.42000002, y: -0.096}
+      - {x: -0.416, y: -0.108}
+      - {x: -0.38000003, y: -0.116000004}
+      - {x: -0.28, y: -0.14}
+      - {x: -0.272, y: -0.18400002}
+      - {x: -0.224, y: -0.23200001}
+      - {x: -0.156, y: -0.264}
+      - {x: -0.1, y: -0.272}
+      - {x: 0.064, y: -0.272}
+      - {x: 0.080000006, y: -0.268}
+      - {x: 0.156, y: -0.256}
+      - {x: 0.264, y: -0.208}

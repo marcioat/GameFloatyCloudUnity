@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3614100925027559131}
   - component: {fileID: 1272467000395679124}
   - component: {fileID: -1064686556502361474}
+  - component: {fileID: 1437595629993373591}
   m_Layer: 0
   m_Name: NuvemChuva
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +100,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 83a01558c1a2a5043b5b200ce679228c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -133,3 +134,86 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.9
+--- !u!60 &1437595629993373591
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375869564920493314}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 1.2}
+    newSize: {x: 1.2, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.24000001, y: -0.324}
+      - {x: -0.18400002, y: -0.23600002}
+      - {x: -0.18, y: -0.33600003}
+      - {x: -0.16000001, y: -0.34800002}
+      - {x: -0.148, y: -0.34800002}
+      - {x: -0.132, y: -0.33200002}
+      - {x: -0.096, y: -0.3}
+      - {x: -0.052, y: -0.328}
+      - {x: -0.016, y: -0.23600002}
+      - {x: -0.012, y: -0.33600003}
+      - {x: 0.008, y: -0.34800002}
+      - {x: 0.024, y: -0.34800002}
+      - {x: 0.040000003, y: -0.33600003}
+      - {x: 0.104, y: -0.3}
+      - {x: 0.15200001, y: -0.216}
+      - {x: 0.15200001, y: -0.33600003}
+      - {x: 0.172, y: -0.34800002}
+      - {x: 0.18400002, y: -0.34800002}
+      - {x: 0.2, y: -0.33200002}
+      - {x: 0.272, y: -0.324}
+      - {x: 0.30400002, y: -0.172}
+      - {x: 0.30400002, y: -0.33600003}
+      - {x: 0.324, y: -0.34800002}
+      - {x: 0.34, y: -0.34800002}
+      - {x: 0.356, y: -0.33600003}
+      - {x: 0.37600002, y: -0.328}
+      - {x: 0.42400002, y: -0.296}
+      - {x: 0.42000002, y: -0.16000001}
+      - {x: 0.536, y: -0.16000001}
+      - {x: 0.564, y: -0.1}
+      - {x: 0.564, y: -0.016}
+      - {x: 0.528, y: 0.028}
+      - {x: 0.328, y: 0.032}
+      - {x: 0.30800003, y: 0.116000004}
+      - {x: 0.264, y: 0.17600001}
+      - {x: 0.2, y: 0.21200001}
+      - {x: 0.09200001, y: 0.28}
+      - {x: 0.008, y: 0.34800002}
+      - {x: -0.096, y: 0.34800002}
+      - {x: -0.14, y: 0.324}
+      - {x: -0.30800003, y: 0.27600002}
+      - {x: -0.36400002, y: 0.268}
+      - {x: -0.41200003, y: 0.252}
+      - {x: -0.47200003, y: 0.18800001}
+      - {x: -0.48400003, y: 0.124000005}
+      - {x: -0.532, y: 0.020000001}
+      - {x: -0.564, y: -0.032}
+      - {x: -0.564, y: -0.096}
+      - {x: -0.52400005, y: -0.14}
+      - {x: -0.41200003, y: -0.18400002}
+      - {x: -0.40800002, y: -0.27600002}
+      - {x: -0.39600003, y: -0.28800002}
+      - {x: -0.36800003, y: -0.34}
+      - {x: -0.344, y: -0.34800002}
+      - {x: -0.30800003, y: -0.34800002}
+      - {x: -0.284, y: -0.21200001}
+      - {x: -0.28, y: -0.296}
+      - {x: -0.268, y: -0.30800003}
