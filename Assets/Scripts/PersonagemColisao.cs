@@ -9,6 +9,8 @@ public class PersonagemColisao : MonoBehaviour
     [SerializeField] private Sprite spritePersonagemGameOver;
     [SerializeField] private GameObject transicaoGameOver;
     [SerializeField] private GameObject painelGameOver;
+    [SerializeField] private AudioSource  soundGameOver;
+    [SerializeField] private AudioSource musicBackground;
 
     private void Awake()
     {
@@ -31,6 +33,8 @@ public class PersonagemColisao : MonoBehaviour
         spriteRenderer.sprite = spritePersonagemGameOver;
         transicaoGameOver.transform.position = transform.position;
         transicaoGameOver.SetActive(true);
+        soundGameOver.Play();
+        musicBackground.Stop();
 
         StartCoroutine(ExibirPainelGameOver());
 
